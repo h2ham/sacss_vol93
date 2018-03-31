@@ -1,0 +1,36 @@
+body {
+  background-color: #F0F0F0;
+}
+
+.l-inner {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.l-visual {
+  /*background-color: #000;
+  height: 400px;*/
+}
+
+.l-visual img {
+  max-width: 100%;
+}
+
+.entries {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.entry {
+  width: 33%;
+  /*float: left;*/
+  background-color: #000;
+}
+
+.entry img {
+  max-width: 100%;
+}
